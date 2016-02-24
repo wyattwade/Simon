@@ -1,0 +1,152 @@
+body {
+  background: url('http://www.nintendowallpapers.com/wp-content/uploads/wallpapers/Nintendo-Heroes.jpg');
+  background-size: 100% 200%;
+
+ 
+
+}
+
+#buttonsContainer {
+  margin: auto;
+  padding: 1px;
+  height: 20em;
+  width: 20em;
+  border-radius: 50px;
+  
+}
+
+#controls {
+  width: 175px;
+  height: 175px;
+  background-color: white;
+  /*z-index: 1;*/
+  border: 1px solid black;
+  margin: auto auto;
+  position: relative;
+  border-radius: 300px;
+  top: 250px;
+}
+
+#green-button {
+  border-top-left-radius: 500px;
+  background-color: #34d491; 
+  
+}
+
+#red-button {
+  border-top-right-radius: 500px;
+  background-color: coral;
+}
+
+#yellow-button {
+  border-bottom-left-radius: 500px;
+  background-color: #ffffa8;
+}
+
+#blue-button {
+  border-bottom-right-radius: 500px;
+  background-color: #AEB7FF;
+}
+
+.buttons {
+  height: 9.8em;
+  width: 9.8em;
+  border: 1px solid black;
+  display: inline-block;
+  float: left;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+#count {
+  height: 30px;
+  width: 40px;
+  border: solid;
+  top: 70px;
+  left: 25px;
+  border-radius: 10px; 
+  position: absolute;
+  float: left;
+  background-color: #4C0000;
+}
+
+#countInsideText {
+   top: 73px;
+  left: 37px;
+  position: absolute;
+  font-size: 24px;
+  color: pink;
+
+}
+
+#start {
+  height: 10px;
+  width: 10px;
+  border: solid;
+  top: 80px;
+  left: 90px;
+  border-radius: 10px; 
+  position: absolute;
+  float: left;
+  background-color: red;
+}
+
+#strict {
+  height: 10px;
+  width: 10px;
+  border: solid;
+  top: 80px;
+  left: 130px;
+  border-radius: 10px; 
+  position: absolute;
+  background-color: #93DBFF;
+}
+
+#countText {
+  position: absolute;
+  top: 110px;
+  left: 30px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+#startText {
+  position: absolute;
+  top: 110px;
+  left: 80px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+#strictText {
+  position: absolute;
+  top: 110px;
+  left: 120px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+
+#strictLight {
+  height:15px;
+  width: 20px;
+  border: solid;
+  top: 130px;
+  left: 100px;
+  border-radius: 5px; 
+  position: absolute;
+  float: left;
+  background-color: #000000;
+}
+
+
+#startLight {
+  height:15px;
+  width: 20px;
+  border: solid;
+  top: 130px;
+  left: 51px;
+  border-radius: 5px; 
+  position: absolute;
+  float: left;
+  background-color: #000000;
+}
